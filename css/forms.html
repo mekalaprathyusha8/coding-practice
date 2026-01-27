@@ -1,0 +1,132 @@
+<form action="store" method="Get">
+    <!-- method="post"  -->
+    <div>
+        <label for="name">Name</label>
+        <input type="text"name="name"id="name" placeholder="Enter Name" >
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email"name="Email"id="Email" placeholder="Enter Email">
+    </div>
+    <div>
+        <label for="Phone">Phone</label>
+        <input type="tel"name="Phone"id="Phone" placeholder="Enter Phonenumber" >
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password"name="Password"id="Password" placeholder="Enter Password">
+    </div>
+    <div>
+        <label for="">Gender</label>
+        <input type="radio"name="Gender"id="male"  required value="male"><label for="male">Male</label> &nbsp; &nbsp;
+        <input type="radio"name="Gender"id="Female"  required value="Female"><label for="Female">Female</label>
+    </div> 
+    <div>
+        <label for="gender2">Gender2</label>
+        <select name="Gender2" id="Gender2"  required>
+           <option value="male">i am a boy</option>  
+           <option value="Female">i am a girl</option>
+        </select>
+    </div>
+    <div>
+        <label for="">Languages</label>
+        <input type="checkbox"name="language1" id="languale1"  required  value="Telugu"><label for="languale1">Telugu</label> 
+        <input type="checkbox"name="language2" id="languale2" value="Hindi"><label for="languale2">Hindi</label>
+        <input type="checkbox"name="language3" id="languale3"  required value="English"><label for="languale3">English</label>
+    </div>
+    <div>
+        <label for="language">lang</label>
+        <select name="language" id="language">
+            <option value="Telugu">Telugu</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+        </select>
+    </div>
+    <div>
+        <label for="DOB">DOB</label>
+        <input type="date"name=DOB id="DOB">
+    </div>
+    <div>
+        <label for="wake up time">wake up time</label>
+        <input type="time" name="Wake up time" id="wake up time" >
+    </div>
+    <div>
+        <label for="checkin">check in</label>
+        <input type="datetime-local" name="checkin" id="checkin">
+    </div>
+    <div>
+        <label for="checkout">check out</label>
+        <input type="datetime-local" name="checkout" id="checkout" >
+    </div>
+    <div>
+        <label for="Birth month">Birth month</label>
+        <input type="month" name="Birth month" id="Birth month" >
+    </div>
+    <div>
+        <label for="valanteen week">valanteen week</label>
+        <input type="week" name="valanteen week" id="valanteen week">
+    </div>
+    <div>
+        <label for="Zip code">Zip code</label>
+        <input type="number" name="Zip code" id="Zip code">
+    </div>
+    <div>
+        <label for="Age">Age</label>
+        <input type="range" name="Age" id="Age" >
+    </div>
+    <div>
+        <label for="favourite color">favourite color</label>
+        <input type="color" name="favourite color" id="favourite color">
+    </div>
+    <div>
+        <label for="instagram">instagram</label>
+        <input type="url" name="instagram" id="instagram">
+    </div>
+    <div>
+        <label for="intrest">intrest</label>
+        <input type="text" list="interstlist" name="intrest" id="intrest">
+        <datalist id="interstlist">
+            <option value="sports">sports</option>
+            <option value="travelling">travelling</option>
+            <option value="reading books">reading books</option>
+            <option value="Art work">Art work</option>
+            <option value="Dance">Dance</option>
+        </datalist>
+    </div>
+    <div>
+        <label for="Profile">Profile</label>
+        <input type="file" name="Profile" id="Profile">
+    </div>
+    <div>
+        <label for="vedio">vedio</label>
+        <input type="file" name="vedio" id="vedio">
+    </div>
+    <div>
+        <label for="image">image</label>
+        <input type="image" src="https://tse2.mm.bing.net/th/id/OIP.oBQbv3ppTXRXuoW2gvDhzQHaJZ?pid=Api&P=0&h=180.jpeg" width="200" name="image" id="image">
+    </div>
+    <div>
+        <label for="Hidden">Userid</label>
+        <input type="hidden"  name="Userid" id="Hidden" value="1234" >
+    </div>
+
+    <div>
+        <label for="Place">Place</label>
+        <select name="Place" id="Place"  required>
+           <option value="hyd">Hyderabad</option>  
+           <option value="warangal">warangal</option>
+           <option value="Banguluru">Mahabubnagar</option>
+        </select>
+    </div>
+    <div>
+        <label for="address">address</label>
+        <textarea name="address" id="address"></textarea>
+    </div>
+
+    <div>
+        <input type="submit"Value="Add User">
+         <input type="reset" value="Clear">
+    </div>
+    
+    
+</form>

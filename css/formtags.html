@@ -1,0 +1,122 @@
+<form action="store" method="Get">
+    <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name" required minlength="4" maxlength="10" size="10" spellcheck="true", pattern="[A-Za-z]+", autocomplete="name" autofocus>
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email"name="Email"id="Email" placeholder="Enter Email"  required ,minlength="10", maxlength="30",  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" >
+    </div>
+    <div>
+        <label for="Phone">Phone</label>
+       <input type="tel"pattern="[6-9][0-9]{9}" maxlength="10" required name="Phone"id="Phone" placeholder="Enter Phonenumber"  required>
+    </div>
+    <div>
+        <label for="Password">Password</label>
+        <input type="password"name="Password"id="Password" placeholder="Enter Password"  required minlength="6", maxlength="15" >
+    </div>
+    <div>
+        <label for="">Gender</label>
+        <input type="radio"name="Gender" id="male" required value="male"><label for="male">Male</label> &nbsp; &nbsp;
+        <input type="radio"name="Gender"id="Female"  required value="Female"><label for="Female">Female</label> &nbsp; &nbsp;    
+    </div>
+    <div>
+        <label for="gender2">Gender2</label>
+        <select name="Gender2" id="Gender2"  required>
+           <option value="">Select Gender</option>
+              <option value="male">boy</option>
+                <option value="Female">girl</option>
+        </select>
+    </div>
+    <div>
+        <label for="Languages">Languages</label>
+        <input type="checkbox"name="language1" id="languale1"   value="Telugu"><label for="languale1">Telugu</label> 
+        <input type="checkbox"name="language2" id="languale2" value="Hindi"><label for="languale2">Hindi</label>
+        <input type="checkbox"name="language3" id="languale3"   value="English"><label for="languale3">English</label>
+    </div>
+    <div>
+        <label for="language">lang</label>
+        <select name="language" id="language">
+            <option value="">Select Language</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+        </select>
+    </div>
+    <div>
+        <label for="DOB">DOB</label>
+        <input type="date"name=DOB id="DOB" >
+    </div>
+    <div>
+        <label for="Age">Age</label>
+        <input type="range" name="Age" id="Age" , min="1", max="100">
+    </div>
+    <div>
+        <label for="wake up time">wake up time</label>
+        <input type="time" name="Wake up time" id="wake up time" >
+    </div>
+    <div>
+        <label for="checkin">check in</label>
+        <input type="datetime-local" name="checkin" id="checkin">
+    </div>
+    <div>
+        <label for="checkout">check out</label>
+        <input type="datetime-local" name="checkout" id="checkout" >
+    </div>
+    <div>
+        <label for="address">address</label>
+        <textarea name="address" id="address"></textarea>
+    </div>
+    <div>
+        <label for ="zipcode">zipcode</label>
+        <input type="number" name="zipcode" id="zipcode" >
+    </div>
+    <div>
+        <label for="Birth month">Birth month</label>
+        <input type="month" name="Birth month" id="Birth month" >
+    </div>
+    <div>
+        <label for="week">week</label>
+        <input type="week" name="week" id="week">
+    </div>
+    <div>
+        <label for="instagram">instagram</label>
+        <input type="url" name="instagram" id="instagram" required>
+    </div>
+    <div>
+        <label for="Hobby">Hobbies</label>
+        <input type="text" list="Hobbylist" name="Hobbies" id="Hobbies"  required>
+        <datalist id="Hobbylist">
+            <option value="Dancing"></option>
+            <option value="sports"></option>
+            <option value="travelling"></option>
+            <option value="reading books"></option>
+        </datalist>
+    </div>
+    <div>
+        <label for="favourite color">favourite color</label>
+        <input type="color" name="favourite color" id="favourite color">
+    </div>
+    <div>
+        <label for="Profile">Profile</label>
+        <input type="file" name="Profile" id="Profile">
+    </div>
+    <div>
+        <label for="vedio">vedio</label>
+        <input type="file" name="vedio" id="vedio">
+    </div>
+    <div>
+        <label for="image">image</label>
+        <input type="image" src="https://tse2.mm.bing.net/th/id/OIP.k8Na5v69kZHxxG09L0uCbAHaCO?pid=Api&P=0&h=180.jpg" name="image" id="image">
+    </div>
+    <div>
+        <label for="place">place</label>
+        <input type="search" name="place" id="place" placeholder="Enter place">                 
+    </div>
+    <div>
+        <label for="submit">submit</label>
+        <input type="submit" name="submit" id="submit" value="Submit Form">
+        <label for="reset">reset</label>
+        <input type="reset" name="reset" id="reset" value="Reset Form">
+    </div>
+    </form>
