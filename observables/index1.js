@@ -30,7 +30,6 @@
 //             subscriber.complete();
 //         }
 //     });
-    
     //anaymous function
 // obj.subscribe({
 //     next:function(res){
