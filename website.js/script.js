@@ -24,7 +24,7 @@ function adduser(event){
                         document.getElementById('email').value="";
                         document.getElementById('phone').value="";
                         getUsers();
-                    }).catch((err)=>{
+                    }).catch((err)=>{ 
                         console.log(err);
         document.getElementById("message").innerText="Error adding user"
     });
