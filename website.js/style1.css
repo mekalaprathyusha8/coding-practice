@@ -1,12 +1,31 @@
 *{
-    padding: 0;
+    padding: 0 ;
     margin:0;
     box-sizing: border-box;
-
+    background-color: lightblue;
 }
 .w-70{
     width: 70%;
 }
 .w-90{
     width: 90% !important;
+}
+.card{
+    box-shadow: 0 0 10px 0 rgb(230, 102, 213);
+    border-radius: 5px;
+    background-image:url('https://tse2.mm.bing.net/th/id/OIP.7cRYFyLoDEDh4sRtM73vvwHaDg?pid=Api&P=0&h=180')
+}
+
+
+#name{
+    background-color: rgb(254, 209, 253);
+
+}
+#email{
+    background-color: rgb(254,209,253)
+
+}
+#phone{
+    background-color: rgb(254,209,253)
+
 }
