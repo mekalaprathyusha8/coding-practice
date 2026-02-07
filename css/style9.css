@@ -1,0 +1,26 @@
+.card{
+    margin: 100px auto;
+    width: 600px;
+    border: 1px solid lightgray;
+    padding: 20px;;
+}
+.card-input{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.input-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.input{
+    border: 1px solid lightgray;
+    border-left: none;
+    padding: 20px;
+    font-size: 20px;
+}
