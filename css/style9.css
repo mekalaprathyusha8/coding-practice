@@ -1,3 +1,9 @@
+ 
+*{
+    box-sizing: border-box;
+}
+
+
 .card{
     margin: 100px auto;
     width: 600px;
@@ -15,12 +21,45 @@
     align-items: center;
     border: 1px solid gray;
     padding: 20px;
-    font-size: 20px;
+    background-color: lightgray;
+    width: 10%;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius:14px ;
     
 }
+.icon{
+
+}
+
 .input{
     border: 1px solid lightgray;
     border-left: none;
     padding: 20px;
     font-size: 20px;
+    width: 90%;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius:14px;
 }
+
+.card-input2{
+    position: relative;
+    margin-top: 40px;
+}
+
+.input2{
+    width: 100%;
+    padding:20px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.input-icon2 {
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform:translatey(-50%);
+
+
+
+} 
